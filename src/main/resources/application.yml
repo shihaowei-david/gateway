@@ -1,0 +1,9 @@
+server:
+  port: 8024
+#nacos:
+#  config:
+#    server-addr: 120.79.76.230:8848
+#    namespace: f21d3b6b-20ed-4091-ab17-ac073abc3eba
+#spring:
+#  application:
+#    name: gateway
