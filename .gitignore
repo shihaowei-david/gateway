@@ -4,8 +4,7 @@
 *.iml
 /target
 .project
-.settings/org.eclipse.core.resources.prefs
-.settings/org.eclipse.m2e.core.prefs
+*.ftl
 # mac
 .DS_Store
 /**/target/
@@ -13,8 +12,3 @@
 /**/.DS_Store
 /**/*.iml
 .flattened-pom.xml
-
-
-/**/src/test/java/cn/com/supermonkey/app/module/generate/
-
-/**/test-output/
