@@ -24,7 +24,7 @@ import javax.annotation.PostConstruct;
 @Configuration(proxyBeanMethods = false)
 @NacosPropertySource(dataId = "register-config",autoRefreshed = true)
 // TODO 后期nacos的serverAddr放到apollo配置中心
-@EnableNacos(globalProperties = @NacosProperties(serverAddr = "120.79.76.230:8848"))
+@EnableNacos(globalProperties = @NacosProperties(serverAddr = "47.105.165.0:8848"))
 public class DubboNacosConfig {
 
 

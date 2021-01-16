@@ -44,9 +44,8 @@ public class RouteInitProcessor implements BeanPostProcessor {
     private static final HashedWheelTimer WHEEL_TIMER = new HashedWheelTimer();
     /**所有rpc的sevice集合*/
     private static final NonBlockingHashMap<String, Listener> NACOS_APP_CONFIG_LISTENERS = new NonBlockingHashMap<String, Listener>();
-    //private static final NonBlockingHashMap<String, Listener> NACOS_SERVICE_CONFIG_LISTENERS = new NonBlockingHashMap<String, Listener>();
 
-    @NacosInjected(properties = @NacosProperties(serverAddr = "120.79.76.230:8848"))
+    @NacosInjected(properties = @NacosProperties(serverAddr = "47.105.165.0:8848"))
     private ConfigService configService;
 
     @Override
